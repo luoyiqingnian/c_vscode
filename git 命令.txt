@@ -1,0 +1,13 @@
+git init  在本地创建本地仓库
+
+git config --global user.name “xxx”
+git config --global user.email  xxxx
+
+git remote add origin git@github.com:dustdawn/test.git
+origin为本地仓库别名
+git add .  添加所有文件到git暂存区
+
+git commit -m “git init” 提交到本地仓库 
+git push -u origin master   //推到远程服务器github
+
+git pull --rebase origin master // 合并到本地仓库
