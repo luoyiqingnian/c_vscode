@@ -1,2 +1,2 @@
-# c-_vscode
+# c_vscode
 c++
